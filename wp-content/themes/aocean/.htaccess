@@ -1,0 +1,1 @@
+﻿php_value session.gc_maxlifetime 10
