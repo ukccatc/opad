@@ -51,7 +51,6 @@ else {
 	define('DB_NAME', 'opad');
 
 
-
 	/** MySQL database username */
 
 	define('DB_USER', 'opad2016');

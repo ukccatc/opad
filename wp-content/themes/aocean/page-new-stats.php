@@ -1,6 +1,6 @@
 <?php
-include(dirname(__FILE__) . '/include/controller.php');
-include(dirname(__FILE__) . '/include/functions.php');
+include(__DIR__ . '/include/controller.php');
+include(__DIR__ . '/include/functions.php');
 
 // Проверка зашел ли пользователь на страницу.
 if (!isset($_SESSION['userid'])) {
@@ -35,13 +35,16 @@ if (isset($_POST['year_input'])) {
                 <span><?php echo $stats['ФИО']?></span>
             </p>
             <p>Текущий счет:
-                <span><?php echo $stats['Общая сумма'] ?> грн (по состоянию на 01.08.2020) </span>
+                <span><?php echo $stats['Общая сумма'] ?> грн (по состоянию на 01.09.2020) </span>
             </p>
             <p>Статус:
                 <span>
-                    <?php if ($stats['Член-профсоюза']) echo 'Вы являетесь членом профсоюза'; else echo
-                         'Вы не являетесь членом профсоюза'
-                    ;?>
+                    <?php if ($stats['Член-профсоюза']) {
+                        echo 'Вы являетесь членом профсоюза';
+                    } else {
+                        echo
+                        'Вы не являетесь членом профсоюза';
+                    } ?>
                 </span>
             </p>
         </div>
