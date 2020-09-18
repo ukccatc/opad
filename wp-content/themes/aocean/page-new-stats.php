@@ -35,7 +35,11 @@ if (isset($_POST['year_input'])) {
                 <span><?php echo $stats['ФИО']?></span>
             </p>
             <p>Текущий счет:
-                <span><?php echo $stats['Общая сумма'] ?> грн (по состоянию на 01.09.2020) </span>
+                <span>
+                <?php echo $stats['Общая сумма'] ?>
+
+                грн (по состоянию на <?php $all_options = get_option('true_options'); echo $all_options['my_text']; ?>)
+                </span>
             </p>
             <p>Статус:
                 <span>

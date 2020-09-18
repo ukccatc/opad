@@ -4,7 +4,7 @@ include_once('database.php');
 	// Получение статистики для одного пользователя, определенного по ID
 	function getUserStatistics($id) {
 		$dbh = getConnectionDB();
-		$id = intval($id);
+		$id = (int)$id;
 
 		$result = $dbh->query("SELECT * FROM Stats where id =$id");
 		 
@@ -310,6 +310,8 @@ include_once('database.php');
 		}
 		return $years;
 	}
+
+
 
 	
 

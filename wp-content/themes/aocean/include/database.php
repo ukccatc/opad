@@ -1,6 +1,6 @@
 <?php
-if (file_exists( dirname( __FILE__ ) . '/database_local.php' ) ) {
-	include( dirname( __FILE__ ) . '/database_local.php' );
+if (file_exists( __DIR__ . '/database_local.php' ) ) {
+	include( __DIR__ . '/database_local.php' );
 }
 else {
 	function getConnectionDB () {
