@@ -1,4 +1,8 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+
 
 /**
 
@@ -51,6 +55,7 @@ else {
 	define('DB_NAME', 'opad');
 
 
+
 	/** MySQL database username */
 
 	define('DB_USER', 'opad2016');
@@ -85,7 +90,7 @@ else {
 
 /** MySQL hostname */
 
-//define('WP_CACHE', true); //Added by WP-Cache Manager
+ //Added by WP-Cache Manager
 
 define( 'WPCACHEHOME', '/var/www/opad2016/data/www/opad.com.ua/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 
