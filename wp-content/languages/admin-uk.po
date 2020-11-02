@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-02 06:46:04+0000\n"
+"PO-Revision-Date: 2020-10-29 08:36:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,222 +36,222 @@ msgstr "Значення \"%1$s\" менше ніж \"%2$s\"."
 msgid "Environment type"
 msgstr "Тип оточення"
 
-#: wp-admin/about.php:162
+#: wp-admin/about.php:187
 msgid "Video: An image is added with an image block. In the block toolbar, an icon called \"Crop\" is selected, which changes the toolbar to show image resizing tools. First, zoom is used to zoom into the center of the image. Next, aspect ratio is clicked. This shows a dropdown of common aspect ratios. Square is chosen, and the image is moved within the new square outline. The crop is completed by clicking \"Apply.\""
 msgstr "Відео: За допомогою блоку \"Зображення\" додано зображення. В панелі інструментів блоку обраний значок \"Обрізати\", натискання на нього змінює панель, тепер відображаються інструменти для зміни розміру зображення. Спочатку використовується збільшення для збільшення центру зображення, потім інструмент \"Співвідношення сторін\". Показується cпадаючий список часто використовуваних співвідношень. Обрано квадрат, зображення переміщається в нові кордони, обрізка завершується натисканням \"Застосувати\"."
 
-#: wp-admin/about.php:154
+#: wp-admin/about.php:179
 msgid "Video: In the editor, the block inserter shows two tabs, Blocks and Patterns. The Patterns tab is selected. There are different block layouts in this tab. After scrolling through options including buttons and columns, a pattern called \"Large header with a heading\" is chosen. This adds a cover block, which is customized with a photo and the name of the WordPress 5.5 jazz musician."
 msgstr "Відео: При вставці нового блоку в редакторі показані дві вкладки - блоки і паттерни. Обрана вкладка паттернів, на ній є різні макети груп блоків. Після прокрутки по списку, що включає кнопки і стовпці, обрано паттерн \"Великий заголовок\", він додає блок обкладинки з фотографією і ім'ям джаз-музиканта випуску WordPress 5.5."
 
-#: wp-admin/about.php:134
+#: wp-admin/about.php:159
 msgid "Video: Installed plugin screen, which shows a new column, Automatic Updates. In this column are buttons that say \"Enable auto-updates\". When clicked, the auto-updates feature is turned on for that plugin, and the button switches to say \"Disable auto-updates\"."
 msgstr "Відео: Екран встановлених плагінів з новим стовпчиком \"Автоматичні оновлення\". У цьому стовпці є кнопки з підписом \"Включити автоматичні оновлення\". При натисканні на кнопку автоматичні оновлення будуть включені для цього плагіна, а кнопка зміниться на \"Відключити автоматичні оновлення\"."
 
 #. translators: %s: 'register_meta' function name.
-#: wp-admin/about.php:274
+#: wp-admin/about.php:299
 msgid "The REST API now officially supports specifying default metadata values through %s."
 msgstr "REST API тепер офіційно підтримує вказівку значень метаданих за замовчуванням за допомогою %s."
 
 #. translators: %s: 'register_taxonomy' function name.
-#: wp-admin/about.php:265
+#: wp-admin/about.php:290
 msgid "Default terms can now be specified for custom taxonomies in %s."
 msgstr "Термін за замовчуванням може бути вказаний для користувацьких таксономій за допомогою %s."
 
-#: wp-admin/about.php:260
+#: wp-admin/about.php:285
 msgid "Custom post types associated with the category taxonomy can now opt-in to supporting the default term."
 msgstr "Користувацькі типи даних асоційовані з таксономією категорій тепер опціонально підтримують термін за замовчуванням."
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:134
 msgctxt "sitemap"
 msgid "Search"
 msgstr "Пошук"
 
-#: wp-admin/about.php:288
+#: wp-admin/about.php:313
 msgid "Check the Field Guide for more!"
 msgstr "Подивіться документацію, щоб дізнатися більше!"
 
-#: wp-admin/about.php:279
+#: wp-admin/about.php:304
 msgid "You will find updated versions of these bundled libraries: SimplePie, Twemoji, Masonry, imagesLoaded, getID3, Moment.js, and clipboard.js."
 msgstr "Оновлені версії вбудованих бібліотек: SimplePie, Twemoji, Masonry, imagesLoaded, getID3, Moment.js, і clipboard.js."
 
 #. translators: %s: 'wp_opcache_invalidate' function name.
-#: wp-admin/about.php:255
+#: wp-admin/about.php:280
 msgid "Sites that use PHP’s OPcache will see more reliable cache invalidation, thanks to the new %s function during updates (including to plugins and themes)."
 msgstr "Сайти котрі використовують PHP OPcache можуть використовувати надійний механізм інвалідаціі кеша при оновленнях (в тому числі для плагінів і тем) за допомогою функції %s."
 
 #. translators: %s: 'redirect_guess_404_permalink' function name.
-#: wp-admin/about.php:246
+#: wp-admin/about.php:271
 msgid "Now get more fine-grained control of %s."
 msgstr "Більш точний контроль над %s."
 
-#: wp-admin/about.php:241
+#: wp-admin/about.php:266
 msgid "The PHPMailer library just got a major update, going from version 5.2.27 to 6.1.6."
 msgstr "Значне оновлення бібліотеки PHPMailer, з версії 5.2.27 до 6.1.6."
 
-#: wp-admin/about.php:239
+#: wp-admin/about.php:264
 msgid "More changes for developers"
 msgstr "Ще більше змін для розробників"
 
 #. translators: %1$s: 'get_header' function name, %2$s: 'get_template_part'
 #. function name, %3$s: '$args' variable name.
-#: wp-admin/about.php:227
+#: wp-admin/about.php:252
 msgid "The template loading functions (%1$s, %2$s, etc.) have a new %3$s argument. So now you can pass an entire array’s worth of data to those templates."
 msgstr "Функції завантаження шаблонів (%1$s, %2$s, і ін.) можуть використовувати новий аргумент %3$s. Тепер можна відправити в шаблон цілий масив корисних даних."
 
-#: wp-admin/about.php:222
+#: wp-admin/about.php:247
 msgid "Passing data to template files"
 msgstr "Передача даних в шаблони"
 
 #. translators: %s: 'wp_get_environment_type' function name.
-#: wp-admin/about.php:215
+#: wp-admin/about.php:240
 msgid "WordPress now has a standardized way to define a site’s environment type (staging, production, etc). Retrieve that type with %s and execute only the appropriate code."
 msgstr "WordPress тепер може використовувати стандартний спосіб для визначення оточення сайту (в розробці, робочий, і ін.). Використовуючи отримання типу через %s можна виконувати певний код."
 
-#: wp-admin/about.php:210
+#: wp-admin/about.php:235
 msgid "Defining environments"
 msgstr "Визначення оточення"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:229
 msgid "The Dashicons library has received its final update in 5.5. It adds 39 block editor icons along with 26 others."
 msgstr "Оновлена бібліотека Dashicons. А це означає, що ви отримаєте 39 нових значків для редактора блоків і 26 інших."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:228
 msgid "Dashicons"
 msgstr "Dashicons"
 
-#: wp-admin/about.php:200
+#: wp-admin/about.php:225
 msgid "The addition of block types endpoints means that JavaScript apps (like the block editor) can retrieve definitions for any blocks registered on the server."
 msgstr "Додавання кінцевих точок REST API для типів блоків означає, що додатки JavaScript (як редактор блоків) можуть отримувати визначення для будь-яких блоків зареєстрованих на сервері."
 
-#: wp-admin/about.php:199
+#: wp-admin/about.php:224
 msgid "Server-side registered blocks in the REST API"
 msgstr "Реєстрація блоків на стороні сервера через REST API"
 
-#: wp-admin/about.php:196
+#: wp-admin/about.php:221
 msgid "5.5 also brings a big box of changes just for developers."
 msgstr "5.5 також несе безліч нововведень для розробників."
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:212
 msgid "You can also move meta boxes with the keyboard, and edit images in WordPress with your assistive device, as it can read you the instructions in the image editor."
 msgstr "А також можна переміщати мета-блоки за допомогою клавіатури і редагувати зображення в WordPress за допомогою допоміжного пристрою, так як воно може прочитати інструкції в редакторі зображень."
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:211
 msgid "Now you can copy links in media screens and modal dialogs with a button, instead of trying to highlight a line of text."
 msgstr "Тепер можна копіювати посилання на екранах медіа і в модальних діалогах за допомогою кнопки, не потрібно для цього виділяти текст."
 
-#: wp-admin/about.php:185
+#: wp-admin/about.php:210
 msgid "Every release adds improvements to the accessible publishing experience, and that remains true for WordPress 5.5."
 msgstr "Кожен випуск WordPress продовжує покращувати можливості доступності публікації, це справедливо і для WordPress 5.5."
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:209
 msgid "Accessibility"
 msgstr "Доступність"
 
-#: wp-admin/about.php:176
+#: wp-admin/about.php:201
 msgid "The highlights above are a tiny fraction of the new block editor features you’ve just installed. Open the block editor and enjoy!"
 msgstr "Зазначені вище нововведення в редакторі блоків це далеко не все! Відкрийте редактор і отримуйте задоволення!"
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:200
 msgid "And so much more."
 msgstr "І багато іншого!"
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:198
 msgid "Now it’s easier than ever to find the block you need. The new block directory is built right into the block editor, so you can install new block types to your site without ever leaving the editor."
 msgstr "Тепер набагато простіше знайти потрібний вам блок. Новий каталог блоків підтримується прямо в редакторі блоків, ви зможете встановити нові типи блоків на сайт не залишаючи редактор."
 
-#: wp-admin/about.php:172
+#: wp-admin/about.php:197
 msgid "The New Block Directory"
 msgstr "Новий каталог блоків"
 
-#: wp-admin/about.php:168
+#: wp-admin/about.php:193
 msgid "You will also find block patterns in a wide variety of plugins and themes, with more added all the time. Pick any of them from a single place — just click and go!"
 msgstr "Ви також знайдете паттерни блоків в досить багатьох плагінах і темах, їх кількість постійно зростає. Виберіть їх з випадаючого списку, натисніть і використовуйте!"
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:192
 msgid "New block patterns make it simple and fun to create complex, beautiful layouts, using combinations of text and media that you can mix and match to fit your story."
 msgstr "Нові паттерни блоків дозволяють швидко і весело створювати складні і красиві макети, використовуючи поєднання тексту і мультимедіа, які ви можете змішувати і поєднувати відповідно до вашою історії."
 
-#: wp-admin/about.php:166
+#: wp-admin/about.php:191
 msgid "Block patterns"
 msgstr "Патерни блоків"
 
-#: wp-admin/about.php:170
+#: wp-admin/about.php:195
 msgid "Crop, rotate, and zoom your photos right from the image block. If you spend a lot of time on images, this could save you hours!"
 msgstr "Поворот, обрізка, збільшення ваших фото прямо в блоці зображення. Якщо ви витрачали багато часу на це раніше, то тепер ви заощадите багато часу!"
 
-#: wp-admin/about.php:169
+#: wp-admin/about.php:194
 msgid "Inline image editing"
 msgstr "Вбудоване редагування зображень"
 
-#: wp-admin/about.php:144
+#: wp-admin/about.php:169
 msgid "Once again, the latest WordPress release packs a long list of exciting new features for the block editor. For example:"
 msgstr "І знову свіжий випуск WordPress відкриває вам великий список захоплюючих можливостей редактора блоків. Наприклад:"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:168
 msgid "Highlights from the block editor"
 msgstr "Значні оновлення редактора блоків"
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:151
 msgid "If updating plugins and themes manually is your thing, now that’s easier too — just upload a ZIP file."
 msgstr "Якщо ви прихильні до ручного оновлення плагінів і тем, то тепер це стало набагато простіше зробити, завантаживши ZIP-архів."
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:150
 msgid "Update by uploading ZIP files"
 msgstr "Оновлення через ZIP-архіви"
 
-#: wp-admin/about.php:124
+#: wp-admin/about.php:149
 msgid "You can also turn auto-updates on or off for each plugin or theme you have installed — all on the same screens you’ve always used."
 msgstr "Ви можете включити або відключити автоматичні оновлення індивідуально для кожного плагіну або теми, на давно звичному екрані управління встановленими плагінами і темами."
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:148
 msgid "Now you can set plugins and themes to update automatically — or not! — in the WordPress admin. So you always know your site is running the latest code available."
 msgstr "Ви можете включити автоматичні оновлення для плагінів і тем (або відключити!) в консолі WordPress. Ви завжди зможете бути впевнені в тому, що використовуються свіжі версії."
 
-#: wp-admin/about.php:122
+#: wp-admin/about.php:147
 msgid "Auto-updates for Plugins and Themes"
 msgstr "Автоматичні оновлення плагінів і тем"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:138
 msgid "So more people will find your site sooner, giving you more time to engage, retain and convert them to subscribers, customers or whatever fits your definition of success."
 msgstr "Більше людей знайдуть ваш сайт ще швидше, переглянуть його краще, залишаться, стануть вашими передплатниками, клієнтами, або тими, кого ви вважаєте мірилом вашого успіху."
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:137
 msgid "Now, by default, WordPress 5.5 includes an XML sitemap that helps search engines discover your most important pages from the very minute you go live."
 msgstr "WordPress 5.5 включає в штатну поставку XML-мапу сайту, яка допоможе пошуковим системам знайти найбільш важливі сторінки відразу з моменту їх публікації."
 
-#: wp-admin/about.php:111
+#: wp-admin/about.php:136
 msgid "WordPress sites work well with search engines."
 msgstr "WordPress сайти чудово працюють з пошуковими системами."
 
-#: wp-admin/about.php:110
+#: wp-admin/about.php:135
 msgid "Say hello to your new sitemap."
 msgstr "Привітайте нові карти сайту."
 
-#: wp-admin/about.php:103
+#: wp-admin/about.php:128
 msgid "On mobile, lazy loading can also keep browsers from loading files meant for other devices. That can save your readers money on data — and help preserve battery life."
 msgstr "На мобільних пристроях відкладене завантаження допоможе браузеру не завантажувати файли, призначені для інших пристроїв. Це збереже вашим читачам трафік і заряд батареї пристрою."
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:127
 msgid "In WordPress 5.5, images wait to load until they’re just about to scroll into view. The technical term is ‘lazy loading’."
-msgstr "У WordPress 5.5, зображення чекатимуть завантаження до тих пір, поки не потраплять в область перегляду. Це прийнято називати 'відкладеним завантаженням'."
+msgstr "У WordPress 5.5 зображення чекатимуть завантаження до тих пір, поки не потраплять в область перегляду. Це прийнято називати 'відкладеним завантаженням' (іноді також використовують термін «ліниве завантаження ')."
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:126
 msgid "Images give your story a lot of impact, but they can sometimes make your site seem slow."
 msgstr "Зображення безсумнівно важливі для ілюстрації ваших історій, але вони також можуть робити сайт повільніше."
 
-#: wp-admin/about.php:100
+#: wp-admin/about.php:125
 msgid "Posts and pages feel faster, thanks to lazy-loaded images."
 msgstr "Завдяки відкладеному завантаженню зображень, завантаження сторінок і записів відчувається значно швидше."
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:124
 msgid "Speed"
 msgstr "Швидкість"
 
 #. translators: %s: The current WordPress version number.
 #: wp-admin/about.php:55
 msgid "In WordPress %s, your site gets new power in three major areas: speed, search, and security."
-msgstr "З WordPress %s ваш сайт стає набагато краще в трьох областях: швидкості, пошуку і безпеці."
+msgstr "З WordPress %s ваш сайт стає набагато краще в трьох аспектах: швидкості, пошуку і безпеці."
 
 #: wp-admin/credits.php:25 wp-admin/privacy.php:22 wp-admin/freedoms.php:28
 #: wp-admin/about.php:23
@@ -268,11 +268,11 @@ msgstr "Оновлення несумісне"
 
 #: wp-admin/update-core.php:547
 msgid "This update doesn&#8217;t work with your version of WordPress."
-msgstr "Цей плагін не буде працювати з вашою версією WordPress."
+msgstr "Це оновлення не буде працювати з вашою версією WordPress."
 
 #: wp-admin/update-core.php:513
 msgid "This update doesn&#8217;t work with your versions of WordPress and PHP."
-msgstr "Цей плагін не буде працювати з вашими поточними версіями WordPress і PHP."
+msgstr "Це оновлення не працюватиме з вашими версіями WordPress і PHP."
 
 #: wp-admin/options-discussion.php:207 wp-admin/options-discussion.php:208
 msgid "Disallowed Comment Keys"
@@ -280,7 +280,7 @@ msgstr "Заборонені ключові слова коментарів"
 
 #: wp-admin/includes/class-wp-site-health.php:2150
 msgid "Plugin and theme auto-updates"
-msgstr "Плагін і тема автоматично оновлюються"
+msgstr "Автоматичне оновлення плагінів і тем"
 
 #: wp-admin/includes/class-wp-site-health.php:2427
 msgid "There appear to be no issues with plugin and theme auto-updates."
@@ -322,7 +322,7 @@ msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
 msgstr "Активувати &#8220;%s&#8221;"
 
-#: wp-admin/includes/ajax-actions.php:5326
+#: wp-admin/includes/ajax-actions.php:5327
 msgid "Sorry, you are not allowed to modify plugins."
 msgstr "На жаль, вам не дозволено редагувати плагіни."
 
@@ -402,10 +402,10 @@ msgstr "Оновити %s зараз"
 
 #. translators: 1: Plugin name, 2: Version number.
 #. translators: 1: Theme name, 2: Version number.
-#: wp-admin/includes/class-wp-automatic-updater.php:1066
-#: wp-admin/includes/class-wp-automatic-updater.php:1084
-#: wp-admin/includes/class-wp-automatic-updater.php:1107
-#: wp-admin/includes/class-wp-automatic-updater.php:1125
+#: wp-admin/includes/class-wp-automatic-updater.php:1070
+#: wp-admin/includes/class-wp-automatic-updater.php:1088
+#: wp-admin/includes/class-wp-automatic-updater.php:1111
+#: wp-admin/includes/class-wp-automatic-updater.php:1129
 msgid "- %1$s version %2$s"
 msgstr "- %1$s версія %2$s"
 
@@ -546,7 +546,7 @@ msgctxt "theme"
 msgid "Cannot Activate"
 msgstr "Неможливо активувати"
 
-#: wp-admin/comment.php:45
+#: wp-admin/comment.php:46
 msgid "You can&#8217;t edit this comment because the associated post is in the Trash. Please restore the post first, then try again."
 msgstr "Ви не можете відредагувати цей коментар, оскільки пов'язаний з ним запис видалено в кошик. Ви можете відновити запис і спробувати знову."
 
@@ -576,20 +576,20 @@ msgctxt "plugin"
 msgid "<strong>Error:</strong> Current versions of WordPress (%1$s) and PHP (%2$s) do not meet minimum requirements for %3$s. The plugin requires WordPress %4$s and PHP %5$s."
 msgstr "<strong>Помилка:</strong> Поточні версії WordPress (%1$s) і PHP (%2$s) не відповідають мінімальним вимогам для %3$s. Цей плагін вимагає версію WordPress %4$s і версію PHP %5$s."
 
-#: wp-admin/includes/ajax-actions.php:5348
+#: wp-admin/includes/ajax-actions.php:5349
 msgid "Invalid data. The item does not exist."
 msgstr "Невірні дані. Елемент відсутній."
 
-#: wp-admin/includes/ajax-actions.php:5319
-#: wp-admin/includes/ajax-actions.php:5344
+#: wp-admin/includes/ajax-actions.php:5320
+#: wp-admin/includes/ajax-actions.php:5345
 msgid "Invalid data. Unknown type."
 msgstr "Невірні дані. Невідомий тип."
 
-#: wp-admin/includes/ajax-actions.php:5314
+#: wp-admin/includes/ajax-actions.php:5315
 msgid "Invalid data. Unknown state."
 msgstr "Невірні дані. Невідомий стан."
 
-#: wp-admin/includes/ajax-actions.php:5308
+#: wp-admin/includes/ajax-actions.php:5309
 msgid "Invalid data. No selected item."
 msgstr "Невірні дані. Немає вибраних елементів."
 
@@ -603,92 +603,92 @@ msgid "Error: You can&#8217;t reply to a comment on a draft post."
 msgstr "Помилка: ви відповідаєте на коментар до чернетки."
 
 #. translators: %s: Themes screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1149
+#: wp-admin/includes/class-wp-automatic-updater.php:1153
 msgid "To manage themes on your site, visit the Themes page: %s"
 msgstr "Для управління темами вашого сайту, відвідайте сторінку тем: %s"
 
 #. translators: %s: Plugins screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1140
+#: wp-admin/includes/class-wp-automatic-updater.php:1144
 msgid "To manage plugins on your site, visit the Plugins page: %s"
 msgstr "Для управління плагінами вашого сайту, відвідайте сторінку плагінів: %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1120
+#: wp-admin/includes/class-wp-automatic-updater.php:1124
 msgid "These themes are now up to date:"
 msgstr "Ці теми не потребують оновлення:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1102
+#: wp-admin/includes/class-wp-automatic-updater.php:1106
 msgid "These plugins are now up to date:"
 msgstr "Ці плагіни не потребують оновлення:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1079
+#: wp-admin/includes/class-wp-automatic-updater.php:1083
 msgid "These themes failed to update:"
 msgstr "Наступні теми не вдалося оновити:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1061
+#: wp-admin/includes/class-wp-automatic-updater.php:1065
 msgid "These plugins failed to update:"
 msgstr "Наступні плагіни не вдалося оновити:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1056
+#: wp-admin/includes/class-wp-automatic-updater.php:1060
 msgid "Please check your site now. It’s possible that everything is working. If there are updates available, you should update."
 msgstr "Перевірте зараз свій сайт. Цілком можливо, що все працює. Якщо він запропонує оновитися, зробіть це."
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1046
+#: wp-admin/includes/class-wp-automatic-updater.php:1050
 msgid "Howdy! Themes failed to update on your site at %s."
 msgstr "Привіт! Оновлення тем на вашому сайті (%s) не вдалося."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1043
+#: wp-admin/includes/class-wp-automatic-updater.php:1047
 msgid "[%s] Some themes have failed to update"
 msgstr "[%s] Не вдалася спроба оновлення деяких тем"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1038
+#: wp-admin/includes/class-wp-automatic-updater.php:1042
 msgid "Howdy! Plugins failed to update on your site at %s."
 msgstr "Привіт! Оновлення плагінів на вашому сайті (%s) не вдалося."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1035
+#: wp-admin/includes/class-wp-automatic-updater.php:1039
 msgid "[%s] Some plugins have failed to update"
 msgstr "[%s] Не вдалася спроба оновлення деяких плагінів"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1030
+#: wp-admin/includes/class-wp-automatic-updater.php:1034
 msgid "Howdy! Plugins and themes failed to update on your site at %s."
 msgstr "Привіт! Оновлення плагінів і тем на вашому сайті (%s) не вдалося."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1027
+#: wp-admin/includes/class-wp-automatic-updater.php:1031
 msgid "[%s] Some plugins and themes have failed to update"
 msgstr "[%s] Не вдалася спроба оновлення деяких плагінів і тем"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1017
+#: wp-admin/includes/class-wp-automatic-updater.php:1021
 msgid "Howdy! Some themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привіт! Деякі теми були автоматично оновлені до їх останньої версії на вашому сайті %s. З вашого боку ніяких додаткових дій не потрібно."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1014
+#: wp-admin/includes/class-wp-automatic-updater.php:1018
 msgid "[%s] Some themes were automatically updated"
 msgstr "[%s] Теми були оновлені автоматично"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1009
+#: wp-admin/includes/class-wp-automatic-updater.php:1013
 msgid "Howdy! Some plugins have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привіт! Деякі плагіни були автоматично оновлені до їх останньої версії на вашому сайті %s. З вашого боку ніяких додаткових дій не потрібно."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1006
+#: wp-admin/includes/class-wp-automatic-updater.php:1010
 msgid "[%s] Some plugins were automatically updated"
 msgstr "[%s] Плагіни були оновлені автоматично"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1001
+#: wp-admin/includes/class-wp-automatic-updater.php:1005
 msgid "Howdy! Some plugins and themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привіт! Деякі плагіни і теми були автоматично оновлені до їх останньої версії на вашому сайті %s.З вашого боку ніяких додаткових дій не потрібно."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:998
+#: wp-admin/includes/class-wp-automatic-updater.php:1002
 msgid "[%s] Some plugins and themes have automatically updated"
 msgstr "[%s] Плагіни і теми були оновлені автоматично"
 
@@ -1078,7 +1078,7 @@ msgid "Unable to write to %s file."
 msgstr "Неможливо записати в файл %s."
 
 #. translators: %s: WordPress 5.5 Field Guide link.
-#: wp-admin/about.php:293
+#: wp-admin/about.php:318
 msgid "There’s a lot more for developers to love in WordPress 5.5. To discover more and learn how to make these changes shine on your sites, themes, plugins and more, check the <a href=\"%s\">WordPress 5.5 Field Guide.</a>"
 msgstr "Набагато більше смакоти для розробників в WordPress 5.5. Дізнатися більше та навчитися використовувати ці зміни у всій красі на ваших сайтах, в темах, плагінах, і не тільки, ви можете прочитавши <a href=\"%s\">WordPress 5.5 Field Guide</a>."
 
@@ -1109,31 +1109,31 @@ msgid "This localized version contains both the translation and various other lo
 msgstr "Локалізована версія містить як переклад так і різні інші виправлення для локалізації."
 
 #. translators: 1: Number of issues. 2: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1851
+#: wp-admin/includes/dashboard.php:1853
 msgid "Take a look at the <strong>%1$d item</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgid_plural "Take a look at the <strong>%1$d items</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgstr[0] "Зверніть увагу на <strong>%1$d елемент</strong> на екрані <a href=\"%2$s\">Стану здоров'я сайту</a>."
 msgstr[1] "Зверніть увагу на <strong>%1$d елементи</strong> на екрані <a href=\"%2$s\">Стану здоров'я сайту</a>."
 msgstr[2] "Зверніть увагу на <strong>%1$d елементів</strong> на екрані <a href=\"%2$s\">Стану здоров'я сайту</a>."
 
-#: wp-admin/includes/dashboard.php:1841
+#: wp-admin/includes/dashboard.php:1843
 msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
 msgstr "Статус здоров'я вашого сайту виглядає непогано, але є деякі речі, які ви можете зробити для поліпшення продуктивності і безпеки."
 
-#: wp-admin/includes/dashboard.php:1839
+#: wp-admin/includes/dashboard.php:1841
 msgid "Great job! Your site currently passes all site health checks."
 msgstr "Чудово!  Ваш сайт успішно пройшов всі тести перевірки стану здоров'я."
 
-#: wp-admin/includes/dashboard.php:1837
+#: wp-admin/includes/dashboard.php:1839
 msgid "Your site has critical issues that should be addressed as soon as possible to improve its performance and security."
 msgstr "На вашому сайті є критичні проблеми, які варто вирішити якомога швидше, для поліпшення безпеки та продуктивності вашого сайту."
 
 #. translators: %s: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1829
+#: wp-admin/includes/dashboard.php:1831
 msgid "Site health checks will automatically run periodically to gather information about your site. You can also <a href=\"%s\">visit the Site Health screen</a> to gather information about your site now."
 msgstr "Перевірка стану здоров'я сайту буде періодично автоматично запускатися і збирати інформацію про ваш сайт. Ви можете перейти до екрану <a href=\"%s\">Стану здоров'я сайту</a>, щоб зробити це зараз."
 
-#: wp-admin/includes/dashboard.php:1817
+#: wp-admin/includes/dashboard.php:1819
 msgid "No information yet&hellip;"
 msgstr "Поки немає інформації..."
 
@@ -1187,35 +1187,44 @@ msgstr "В кошику, не знайдено медіафайлів."
 
 #. translators: Date string for upcoming events. 1: Starting month, 2: Starting
 #. day, 3: Ending month, 4: Ending day, 5: Year.
-#: wp-admin/includes/class-wp-community-events.php:405
+#. translators: Date string for upcoming events. 1: Starting month, 2: Starting
+#. day, 3: Ending month, 4: Ending day, 5: Ending year.
+#: wp-admin/includes/class-wp-community-events.php:422
+#: wp-admin/js/dashboard.js:750
 msgid "%1$s %2$d – %3$s %4$d, %5$d"
 msgstr "%1$s %2$d – %3$s %4$d, %5$d"
 
 #. translators: Upcoming events year format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:400
-#: wp-admin/includes/class-wp-community-events.php:410
+#: wp-admin/includes/class-wp-community-events.php:417
+#: wp-admin/includes/class-wp-community-events.php:427
+#: wp-admin/js/dashboard.js:763 wp-admin/js/dashboard.js:774
 msgctxt "upcoming events year format"
 msgid "Y"
 msgstr "Y"
 
 #. translators: Upcoming events day format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:397
-#: wp-admin/includes/class-wp-community-events.php:398
-#: wp-admin/includes/class-wp-community-events.php:407
-#: wp-admin/includes/class-wp-community-events.php:409
+#: wp-admin/includes/class-wp-community-events.php:414
+#: wp-admin/includes/class-wp-community-events.php:415
+#: wp-admin/includes/class-wp-community-events.php:424
+#: wp-admin/includes/class-wp-community-events.php:426
+#: wp-admin/js/dashboard.js:761 wp-admin/js/dashboard.js:762
+#: wp-admin/js/dashboard.js:771 wp-admin/js/dashboard.js:773
 msgctxt "upcoming events day format"
 msgid "j"
 msgstr "j"
 
 #. translators: Date string for upcoming events. 1: Month, 2: Starting day, 3:
 #. Ending day, 4: Year.
-#: wp-admin/includes/class-wp-community-events.php:394
+#: wp-admin/includes/class-wp-community-events.php:411
+#: wp-admin/js/dashboard.js:748
 msgid "%1$s %2$d–%3$d, %4$d"
 msgstr "%1$s %2$d–%3$d, %4$d"
 
 #. translators: Upcoming events month format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:388
-#: wp-admin/includes/class-wp-community-events.php:389
+#: wp-admin/includes/class-wp-community-events.php:405
+#: wp-admin/includes/class-wp-community-events.php:406
+#: wp-admin/js/dashboard.js:760 wp-admin/js/dashboard.js:770
+#: wp-admin/js/dashboard.js:772
 msgctxt "upcoming events month format"
 msgid "F"
 msgstr "F"
@@ -1226,11 +1235,11 @@ msgstr "Знову послати запит підтвердження"
 
 #: wp-admin/includes/class-wp-privacy-requests-table.php:213
 msgid "Delete Requests"
-msgstr "Видалити запити"
+msgstr "Запити на видалення"
 
 #: wp-admin/includes/class-wp-debug-data.php:859
 msgid "Table prefix"
-msgstr "Префікс таблиці"
+msgstr "Префікс таблиць"
 
 #: wp-admin/includes/privacy-tools.php:398
 msgid "Unable to open export file (JSON report) for writing."
@@ -1397,7 +1406,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/users-add-new-screen/\">
 msgid "This page can show you every detail about the configuration of your WordPress website. For any improvements that could be made, see the <a href=\"%s\">Site Health Status</a> page."
 msgstr "Ця сторінка показує подробиці про конфігурацію вашого сайту WordPress. Якщо що-небудь може бути покращено, ви побачите це на <a href=\"%s\">сторінці стану сайту</a>."
 
-#: wp-admin/includes/dashboard.php:1819 wp-admin/site-health-info.php:47
+#: wp-admin/includes/dashboard.php:1821 wp-admin/site-health-info.php:47
 #: wp-admin/site-health.php:52
 msgid "Results are still loading&hellip;"
 msgstr "Результати все ще завантажуються..."
@@ -1450,7 +1459,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/using-themes/\">Доку
 msgid "<a href=\"https://developer.wordpress.org/themes/\">Documentation on Theme Development</a>"
 msgstr "<a href=\"https://developer.wordpress.org/themes/\">Документація по створенню тем</a>"
 
-#: wp-admin/comment.php:66 wp-admin/edit-comments.php:194
+#: wp-admin/comment.php:70 wp-admin/edit-comments.php:194
 msgid "<a href=\"https://wordpress.org/support/article/comments-screen/\">Documentation on Comments</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/comments-screen/\">Документація про коментарі</a>"
 
@@ -1480,7 +1489,7 @@ msgstr "https://wordpress.org/support/article/giving-wordpress-its-own-directory
 msgid "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Documentation on General Settings</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Документація по загальним налаштуванням</a>"
 
-#: wp-admin/includes/dashboard.php:1930
+#: wp-admin/includes/dashboard.php:1932
 msgid "https://wordpress.org/support/article/first-steps-with-wordpress/"
 msgstr "https://wordpress.org/support/article/first-steps-with-wordpress/"
 
@@ -1858,7 +1867,7 @@ msgstr "SQL сервер &mdash; ПЗ що використовується Word
 msgid "PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator."
 msgstr "Розширення PHP виконують багато завдань на сервері для забезпечення роботи вашого сайту. Зазвичай будь-які зміни в них вносяться системним адміністратором сервера."
 
-#: wp-admin/includes/dashboard.php:1747
+#: wp-admin/includes/dashboard.php:1749
 msgid "PHP is the programming language we use to build and maintain WordPress. Newer versions of PHP are both faster and more secure, so updating will have a positive effect on your site&#8217;s performance."
 msgstr "PHP — мова програмування, на основі якої створено WordPress. Нові версії PHP і швидше і безпечніше, тому оновлення матиме позитивний ефект для продуктивності сайту."
 
@@ -1893,13 +1902,13 @@ msgstr "Визначення %1$s було або включено конста�
 
 #. translators: Background update finished notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1286
+#: wp-admin/includes/class-wp-automatic-updater.php:1290
 msgid "[%s] Background Update Finished"
 msgstr "[%s] Фонове оновлення завершено"
 
 #. translators: Background update failed notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1283
+#: wp-admin/includes/class-wp-automatic-updater.php:1287
 msgid "[%s] Background Update Failed"
 msgstr "[%s] Фонове оновлення не вдалося"
 
@@ -1986,17 +1995,17 @@ msgid "The authenticity of %s could not be verified as signature verification is
 msgstr "Справжність %s не може бути перевірена, так як можливість перевірки підписів недоступна в цій системі."
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5027
+#: wp-admin/includes/ajax-actions.php:5028
 msgid "Eraser callback is not valid: %s."
 msgstr "Зворотній виклик функції стирання невірний: %s."
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5017
+#: wp-admin/includes/ajax-actions.php:5018
 msgid "Eraser does not include a callback: %s."
 msgstr "Функція стирання не включає зворотній виклик: %s."
 
-#: wp-admin/includes/ajax-actions.php:4739
-#: wp-admin/includes/ajax-actions.php:4930
+#: wp-admin/includes/ajax-actions.php:4740
+#: wp-admin/includes/ajax-actions.php:4931
 msgid "Sorry, you are not allowed to perform this action."
 msgstr "На жаль, у вас немає доступу для виконання цієї дії."
 
@@ -2095,7 +2104,7 @@ msgstr[2] "На вашому сайті %d неактивних плагінів
 #: wp-admin/includes/class-wp-site-health.php:1497
 #: wp-admin/includes/class-wp-site-health.php:1560
 #: wp-admin/includes/class-wp-site-health.php:1679
-#: wp-admin/includes/class-wp-site-health.php:1749 wp-admin/about.php:121
+#: wp-admin/includes/class-wp-site-health.php:1749 wp-admin/about.php:146
 msgid "Security"
 msgstr "Безпека"
 
@@ -3272,24 +3281,24 @@ msgstr "Ви не можете встановити, тому що <a href=\"%1$
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "Ви не можете встановити, тому що <a href=\"%1$s\">WordPress %2$s</a> вимагає PHP версії %3$s або вище. Ваша версія - %4$s."
 
-#: wp-admin/includes/dashboard.php:1913
+#: wp-admin/includes/dashboard.php:1915
 msgid "Set up your homepage"
 msgstr "Налаштуйте головну сторінку сайту"
 
 #: wp-admin/includes/class-wp-site-health.php:734
-#: wp-admin/includes/dashboard.php:1754
+#: wp-admin/includes/dashboard.php:1756
 msgid "Learn more about updating PHP"
 msgstr "Дізнайтеся більше про оновлення PHP"
 
-#: wp-admin/includes/dashboard.php:1746
+#: wp-admin/includes/dashboard.php:1748
 msgid "What is PHP and how does it affect my site?"
 msgstr "Що таке PHP і як це впливає на мій сайт?"
 
-#: wp-admin/includes/dashboard.php:1740
+#: wp-admin/includes/dashboard.php:1742
 msgid "WordPress has detected that your site is running on an outdated version of PHP."
 msgstr "WordPress виявив, що ви використовуєте застарілу версію PHP."
 
-#: wp-admin/includes/dashboard.php:1738
+#: wp-admin/includes/dashboard.php:1740
 msgid "WordPress has detected that your site is running on an insecure version of PHP."
 msgstr "WordPress виявив, що ви використовуєте небезпечну версію PHP."
 
@@ -3385,8 +3394,10 @@ msgid "Cannot Install"
 msgstr "Встановлення неможливе"
 
 #. translators: %s: WordPress version.
+#. translators: %s: WordPress version
 #: wp-admin/includes/update.php:300 wp-admin/install.php:238
 #: wp-admin/update-core.php:80 wp-admin/upgrade.php:80 wp-admin/about.php:86
+#: wp-admin/about.php:111
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -4042,7 +4053,7 @@ msgid "Report generated for"
 msgstr "Згенеровано звіт для"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4823
+#: wp-admin/includes/ajax-actions.php:4824
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "Масив експорту в індексі %s не містить дружньої назви."
 
@@ -4054,72 +4065,72 @@ msgstr "Вибачте, вам не дозволено видаляти дані
 msgid "Sorry, you are not allowed to export personal data on this site."
 msgstr "Вибачте, вам не дозволено експортувати дані на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:4990
+#: wp-admin/includes/ajax-actions.php:4991
 msgid "Eraser index is out of range."
 msgstr "Індекс знищувача знаходиться поза межами діапазону."
 
-#: wp-admin/includes/ajax-actions.php:4949
+#: wp-admin/includes/ajax-actions.php:4950
 msgid "Missing eraser index."
 msgstr "Індекс знищувача відсутній."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4874
+#: wp-admin/includes/ajax-actions.php:4875
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "Очікування завершення (булевий) у масиві відповіді від експортера: %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4867
+#: wp-admin/includes/ajax-actions.php:4868
 msgid "Expected data array in response array from exporter: %s."
 msgstr "Очікуваний масив даних у масиві відповіді від експортера: %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4860
+#: wp-admin/includes/ajax-actions.php:4861
 msgid "Expected data in response array from exporter: %s."
 msgstr "Очікувані дані в масиві відповіді від експортера: %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4853
+#: wp-admin/includes/ajax-actions.php:4854
 msgid "Expected response as an array from exporter: %s."
 msgstr "Очікувана відповідь як масив від експортера: %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4839
+#: wp-admin/includes/ajax-actions.php:4840
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "Зворотний виклик експортера є недійсним зворотнім викликом: %s."
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4832
+#: wp-admin/includes/ajax-actions.php:4833
 msgid "Exporter does not include a callback: %s."
 msgstr "Експонент не включає зворотний виклик: %s."
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4816
+#: wp-admin/includes/ajax-actions.php:4817
 msgid "Expected an array describing the exporter at index %s."
 msgstr "Очікувався масив, що описує експортера за індексом %s."
 
-#: wp-admin/includes/ajax-actions.php:4802
+#: wp-admin/includes/ajax-actions.php:4803
 msgid "Exporter index is out of range."
 msgstr "Індекс експортера знаходиться поза допустимих меж."
 
-#: wp-admin/includes/ajax-actions.php:4798
+#: wp-admin/includes/ajax-actions.php:4799
 msgid "Exporter index cannot be negative."
 msgstr "Індекс експортера не може бути від'ємним."
 
-#: wp-admin/includes/ajax-actions.php:4792
+#: wp-admin/includes/ajax-actions.php:4793
 msgid "An exporter has improperly used the registration filter."
 msgstr "Експортер неправильно використовував реєстраційний фільтр."
 
-#: wp-admin/includes/ajax-actions.php:4763
-#: wp-admin/includes/ajax-actions.php:4955
+#: wp-admin/includes/ajax-actions.php:4764
+#: wp-admin/includes/ajax-actions.php:4956
 msgid "Missing page index."
 msgstr "Відсутній індекс сторінки."
 
-#: wp-admin/includes/ajax-actions.php:4757
+#: wp-admin/includes/ajax-actions.php:4758
 msgid "Missing exporter index."
 msgstr "Відсутній індекс експортера."
 
-#: wp-admin/includes/ajax-actions.php:4748
-#: wp-admin/includes/ajax-actions.php:4939
+#: wp-admin/includes/ajax-actions.php:4749
+#: wp-admin/includes/ajax-actions.php:4940
 msgid "Invalid request type."
 msgstr "Невірний тип запиту."
 
@@ -4281,7 +4292,7 @@ msgstr "Невірний ідентифікатор запиту при ство
 msgid "Unable to generate export file. ZipArchive not available."
 msgstr "Неможливо створити файл експорту. ZipArchive недоступний."
 
-#: wp-admin/includes/ajax-actions.php:4753
+#: wp-admin/includes/ajax-actions.php:4754
 msgid "A valid email address must be given."
 msgstr "Потрібна дійсна електронна адреса."
 
@@ -4364,61 +4375,61 @@ msgstr "Запит на підтвердження успішно надісла
 msgid "Unable to initiate confirmation request."
 msgstr "Неможливо ініціювати запит на підтвердження."
 
-#: wp-admin/includes/ajax-actions.php:4735
-#: wp-admin/includes/ajax-actions.php:4925
+#: wp-admin/includes/ajax-actions.php:4736
+#: wp-admin/includes/ajax-actions.php:4926
 msgid "Invalid request ID."
 msgstr "Невірний ID запиту."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5099
+#: wp-admin/includes/ajax-actions.php:5100
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується статус виконання у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5088
+#: wp-admin/includes/ajax-actions.php:5089
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ повідомлення з посиланням на масив у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5077
+#: wp-admin/includes/ajax-actions.php:5078
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ повідомлення у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5066
+#: wp-admin/includes/ajax-actions.php:5067
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ items_retained у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5055
+#: wp-admin/includes/ajax-actions.php:5056
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "Очікується ключ items_removed у масиві відповіді від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5044
+#: wp-admin/includes/ajax-actions.php:5045
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "Не отримано масив від функції знищувача %1$s (індекс %2$d)."
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5008
+#: wp-admin/includes/ajax-actions.php:5009
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "Масив функції знищувача за індексом %d не містить імені користувача."
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5003
+#: wp-admin/includes/ajax-actions.php:5004
 msgid "Expected an array describing the eraser at index %d."
 msgstr "Очікується масив опису функції знищувача за індексом %d."
 
-#: wp-admin/includes/ajax-actions.php:4806
-#: wp-admin/includes/ajax-actions.php:4994
+#: wp-admin/includes/ajax-actions.php:4807
+#: wp-admin/includes/ajax-actions.php:4995
 msgid "Page index cannot be less than one."
 msgstr "Індекс сторінки не може бути менший за одиницю."
 
-#: wp-admin/includes/ajax-actions.php:4986
+#: wp-admin/includes/ajax-actions.php:4987
 msgid "Eraser index cannot be less than one."
 msgstr "Індекс знищувача не може бути меншим за одиницю."
 
-#: wp-admin/includes/ajax-actions.php:4945
+#: wp-admin/includes/ajax-actions.php:4946
 msgid "Invalid email address in request."
 msgstr "Невірна email адреса у запиті."
 
@@ -4842,7 +4853,7 @@ msgid "Open"
 msgstr "Відкриті"
 
 #. translators: %s: Meetup organization documentation URL.
-#: wp-admin/includes/dashboard.php:1407
+#: wp-admin/includes/dashboard.php:1409
 msgid "There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href=\"%s\">organize a WordPress event</a>?"
 msgstr "Заходів поряд з вами поки не заплановано. Хочете <a href=\"%s\">організувати</a>?"
 
@@ -4856,13 +4867,13 @@ msgstr "Редагувати користувача %s"
 msgid "Edit widget: %s"
 msgstr "Редагувати віджет: %s"
 
-#: wp-admin/includes/dashboard.php:1399 wp-admin/includes/dashboard.php:1408
+#: wp-admin/includes/dashboard.php:1401 wp-admin/includes/dashboard.php:1410
 msgid "https://make.wordpress.org/community/handbook/meetup-organizer/welcome/"
 msgstr "https://make.wordpress.org/community/handbook/meetup-organizer/welcome/"
 
 #. translators: 1: The city the user searched for, 2: Meetup organization
 #. documentation URL.
-#: wp-admin/includes/dashboard.php:1397
+#: wp-admin/includes/dashboard.php:1399
 msgid "There aren&#8217;t any events scheduled near %1$s at the moment. Would you like to <a href=\"%2$s\">organize a WordPress event</a>?"
 msgstr "В даний час ніяких заходів поряд з %1$s не заплановано. Хочете <a href=\"%2$s\">організувати щось</a>?"
 
@@ -4897,17 +4908,20 @@ msgstr "Новини та заходи WordPress"
 
 #. translators: Date format for upcoming events on the dashboard. Include the
 #. day of the week. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:379
-#: wp-admin/includes/class-wp-community-events.php:384
+#. translators: Date format for upcoming events on the dashboard. Include the
+#. day of the week. See https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/class-wp-community-events.php:396
+#: wp-admin/includes/class-wp-community-events.php:401
+#: wp-admin/js/dashboard.js:746
 msgid "l, M j, Y"
 msgstr "l, M j, Y"
 
-#: wp-admin/includes/class-wp-community-events.php:122
+#: wp-admin/includes/class-wp-community-events.php:124
 msgid "Unknown API error."
 msgstr "Невідома помилка API."
 
 #. translators: %d: Numeric HTTP status code, e.g. 400, 403, 500, 504, etc.
-#: wp-admin/includes/class-wp-community-events.php:117
+#: wp-admin/includes/class-wp-community-events.php:119
 msgid "Invalid API response code (%d)."
 msgstr "Невірний код відповіді API (%d)."
 
@@ -5033,7 +5047,7 @@ msgstr "Повторювати"
 #: wp-admin/link-manager.php:79 wp-admin/options-writing.php:53
 #: wp-admin/includes/class-custom-background.php:100
 #: wp-admin/includes/class-custom-image-header.php:135 wp-admin/my-sites.php:52
-#: wp-admin/options-general.php:49 wp-admin/comment.php:67
+#: wp-admin/options-general.php:49 wp-admin/comment.php:71
 #: wp-admin/theme-editor.php:55 wp-admin/plugin-editor.php:144
 #: wp-admin/nav-menus.php:659 wp-admin/update-core.php:847
 #: wp-admin/options-permalink.php:62 wp-admin/user-new.php:269
@@ -5167,7 +5181,7 @@ msgstr "Підтвердити використання потенційно с�
 msgid "Sorry, you are not allowed to edit this changeset."
 msgstr "На жаль, вам не дозволено редагувати цей набір змін."
 
-#: wp-admin/includes/ajax-actions.php:4153 wp-admin/update.php:202
+#: wp-admin/includes/ajax-actions.php:4154 wp-admin/update.php:202
 #: wp-admin/update.php:223
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "На жаль, вам не дозволено оновлювати теми цього сайту."
@@ -5390,38 +5404,38 @@ msgstr "На жаль, вам не дозволено редагувати по�
 msgid "Sorry, you are not allowed to manage privacy on this site."
 msgstr "На жаль, вам не дозволено керувати налаштуваннями приватності на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:4578
+#: wp-admin/includes/ajax-actions.php:4579
 msgid "Plugin could not be deleted."
 msgstr "Не вдалося видалити плагін."
 
-#: wp-admin/includes/ajax-actions.php:4432 wp-admin/update.php:29
+#: wp-admin/includes/ajax-actions.php:4433 wp-admin/update.php:29
 #: wp-admin/update.php:57 wp-admin/update.php:79
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "На жаль, вам не дозволено оновлювати плагіни цього сайту."
 
-#: wp-admin/includes/ajax-actions.php:4308
-#: wp-admin/includes/ajax-actions.php:4417
-#: wp-admin/includes/ajax-actions.php:4525
+#: wp-admin/includes/ajax-actions.php:4309
+#: wp-admin/includes/ajax-actions.php:4418
+#: wp-admin/includes/ajax-actions.php:4526
 msgid "No plugin specified."
 msgstr "Не вказано плагін."
 
-#: wp-admin/includes/ajax-actions.php:4284
+#: wp-admin/includes/ajax-actions.php:4285
 msgid "Theme could not be deleted."
 msgstr "Тему не можна видалити."
 
-#: wp-admin/includes/ajax-actions.php:4246
+#: wp-admin/includes/ajax-actions.php:4247
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "На жаль, вам не дозволено видаляти теми на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:4029 wp-admin/update.php:251
+#: wp-admin/includes/ajax-actions.php:4030 wp-admin/update.php:251
 #: wp-admin/update.php:291 wp-admin/update.php:324
 #: wp-admin/theme-install.php:16
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "На жаль, вам не дозволено встановлювати теми на цьому сайті."
 
-#: wp-admin/includes/ajax-actions.php:4016
-#: wp-admin/includes/ajax-actions.php:4139
-#: wp-admin/includes/ajax-actions.php:4234
+#: wp-admin/includes/ajax-actions.php:4017
+#: wp-admin/includes/ajax-actions.php:4140
+#: wp-admin/includes/ajax-actions.php:4235
 msgid "No theme specified."
 msgstr "Тему не вказано."
 
@@ -5729,7 +5743,7 @@ msgstr "Шаблон дати"
 msgid "Taxonomy Template"
 msgstr "Шаблон таксономії"
 
-#: wp-admin/includes/dashboard.php:1633
+#: wp-admin/includes/dashboard.php:1635
 msgid "Dismiss the browser warning panel"
 msgstr "Приховати панель з попередженням про браузер"
 
@@ -5904,7 +5918,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Наразі встановлено: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "У <strong>версії %s</strong> виправлено одну проблему безпеки."
 
@@ -5916,15 +5930,15 @@ msgstr "https://uk.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Зображення облікового запису"
 
-#: wp-admin/about.php:66 wp-admin/about.php:326
+#: wp-admin/about.php:66 wp-admin/about.php:351
 msgid "Maintenance and Security Releases"
 msgstr "Технічні оновлення безпеки"
 
-#: wp-admin/about.php:323
+#: wp-admin/about.php:348
 msgid "Security Releases"
 msgstr "Оновлення безпеки"
 
-#: wp-admin/about.php:320
+#: wp-admin/about.php:345
 msgid "Maintenance Releases"
 msgstr "Технічні оновлення"
 
@@ -6244,7 +6258,7 @@ msgstr "Ви обрали видалити користувача зі всіх 
 
 #: wp-admin/includes/media.php:984
 msgid "Invalid image URL."
-msgstr "Невірне посилання зображення."
+msgstr "Невірний URL зображення"
 
 #: wp-admin/includes/file.php:17
 msgid "Theme Header"
@@ -6339,7 +6353,7 @@ msgstr "Не вдалося ініціалізувати сесію підсис
 #: wp-admin/includes/class-wp-comments-list-table.php:462
 msgctxt "column name"
 msgid "Submitted on"
-msgstr "Відправлено на"
+msgstr "Відправлено"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-comments-list-table.php:275
@@ -6482,7 +6496,7 @@ msgstr "Коментарі (%s)"
 msgid "Comments (%1$s) on &#8220;%2$s&#8221;"
 msgstr "Коментарі (%1$s) до &#8220;%2$s&#8221;"
 
-#: wp-admin/includes/ajax-actions.php:5336
+#: wp-admin/includes/ajax-actions.php:5337
 msgid "Sorry, you are not allowed to modify themes."
 msgstr "На жаль, вам не дозволено редагувати теми."
 
@@ -6573,7 +6587,7 @@ msgstr[0] "%s коментар"
 msgstr[1] "%s коментарі"
 msgstr[2] "%s коментарів"
 
-#: wp-admin/includes/ajax-actions.php:3876
+#: wp-admin/includes/ajax-actions.php:3877
 msgid "Image could not be processed."
 msgstr "Зображення не може бути оброблене."
 
@@ -6909,7 +6923,7 @@ msgstr ""
 "Все на ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1290
+#: wp-admin/includes/class-wp-automatic-updater.php:1294
 msgid ""
 "UPDATE LOG\n"
 "=========="
@@ -6917,7 +6931,7 @@ msgstr ""
 "ЛОГ ОНОВЛЕННЯ\n"
 "=========="
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1267
+#: wp-admin/includes/class-wp-automatic-updater.php:1271
 msgid ""
 "BETA TESTING?\n"
 "=============\n"
@@ -6945,13 +6959,13 @@ msgstr ""
 msgid "M j, Y @ H:i"
 msgstr "d.m.Y о H:i"
 
-#: wp-admin/comment.php:208
+#: wp-admin/comment.php:212
 msgid "Submitted on"
 msgstr "Відправлено"
 
 #. translators: Column name or table row header.
 #: wp-admin/includes/class-wp-comments-list-table.php:459
-#: wp-admin/comment.php:182
+#: wp-admin/comment.php:186
 msgid "In response to"
 msgstr "У відповідь на"
 
@@ -7041,11 +7055,11 @@ msgstr "Імена користувачів можуть містити тіль
 msgid "Enable full-height editor and distraction-free functionality."
 msgstr "Увімкнути редактор на всю висоту та режим зосередженого письма."
 
-#: wp-admin/includes/dashboard.php:1476
+#: wp-admin/includes/dashboard.php:1478
 msgid "https://planet.wordpress.org/feed/"
 msgstr "https://planet.wordpress.org/feed/"
 
-#: wp-admin/includes/dashboard.php:1467 wp-admin/index.php:88
+#: wp-admin/includes/dashboard.php:1469 wp-admin/index.php:88
 msgid "https://planet.wordpress.org/"
 msgstr "https://planet.wordpress.org/"
 
@@ -7067,19 +7081,19 @@ msgid "Filter by comment type"
 msgstr "Фільтр по типу коментарів"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3851
+#: wp-admin/includes/ajax-actions.php:3852
 msgid "%s has been logged out."
 msgstr "Сесія користувача %s завершена."
 
-#: wp-admin/includes/ajax-actions.php:3847
+#: wp-admin/includes/ajax-actions.php:3848
 msgid "You are now logged out everywhere else."
 msgstr "Ваша сесія завершена всюди."
 
-#: wp-admin/includes/ajax-actions.php:3838
+#: wp-admin/includes/ajax-actions.php:3839
 msgid "Could not log out user sessions. Please try again."
 msgstr "Не вдалося завершити сесії користувача. Будь ласка, спробуйте ще раз."
 
-#: wp-admin/includes/ajax-actions.php:3725
+#: wp-admin/includes/ajax-actions.php:3726
 msgid "This preview is unavailable in the editor."
 msgstr "Цей попередній перегляд недоступний в редакторі."
 
@@ -7276,7 +7290,7 @@ msgid "Beta Testing"
 msgstr "Бета-тестування"
 
 #. translators: %s: URL that could not be embedded.
-#: wp-admin/includes/ajax-actions.php:3691
+#: wp-admin/includes/ajax-actions.php:3692
 msgid "%s failed to embed."
 msgstr "Не вдалося вставити %s."
 
@@ -7415,11 +7429,11 @@ msgstr "Редагувати видимість"
 msgid "Edit status"
 msgstr "Редагувати статус"
 
-#: wp-admin/includes/dashboard.php:1925
+#: wp-admin/includes/dashboard.php:1927
 msgid "Manage menus"
 msgstr "Керувати меню"
 
-#: wp-admin/includes/dashboard.php:1922
+#: wp-admin/includes/dashboard.php:1924
 msgid "Manage widgets"
 msgstr "Керувати віджетами"
 
@@ -7472,12 +7486,12 @@ msgid "If you would like to see more themes to choose from, click on the &#8220;
 msgstr "Якщо ви хотіли б розширити вибір тем, натисніть на кнопку &#8220;Додати нову&#8221;, і ви зможете подивитися або знайти додаткові теми в <a href=\"%s\">каталозі WordPress</a>. Теми в каталозі WordPress створюються третіми особами і сумісні з ліцензією WordPress. Так, і вони безкоштовні!"
 
 #. translators: 1: Number of megabytes, 2: Percentage.
-#: wp-admin/includes/dashboard.php:1570
+#: wp-admin/includes/dashboard.php:1572
 msgid "%1$s MB (%2$s%%) Space Used"
 msgstr "%1$s МБ (%2$s%%) зайнято"
 
 #. translators: %s: Number of megabytes.
-#: wp-admin/includes/dashboard.php:1556
+#: wp-admin/includes/dashboard.php:1558
 msgid "%s MB Space Allowed"
 msgstr "%s МБ виділено"
 
@@ -7579,36 +7593,36 @@ msgid "This screen shows an individual user all of their sites in this network, 
 msgstr "Цей екран показує окремому користувачу всі його сайти в цій мережі, а також дозволяє цьому користувачу обрати основний сайт. Користувачі можуть використовувати посилання під кожним сайтом, щоби відвідувати зовнішню частину сайту чи Майстерню."
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1323
+#: wp-admin/includes/class-wp-automatic-updater.php:1327
 msgid "Error: [%1$s] %2$s"
 msgstr "Помилка: [%1$s] %2$s"
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1320
+#: wp-admin/includes/class-wp-automatic-updater.php:1324
 msgid "Rollback Error: [%1$s] %2$s"
 msgstr "Помилка при відкаті: [%1$s] %2$s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1249
+#: wp-admin/includes/class-wp-automatic-updater.php:1253
 msgid "The following translations failed to update:"
 msgstr "Наступні переклади не вдалося оновити:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1248
+#: wp-admin/includes/class-wp-automatic-updater.php:1252
 msgid "The following themes failed to update:"
 msgstr "Наступні теми не вдалося оновити:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1247
+#: wp-admin/includes/class-wp-automatic-updater.php:1251
 msgid "The following plugins failed to update:"
 msgstr "Наступні доданки не вдалося оновити:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1235
+#: wp-admin/includes/class-wp-automatic-updater.php:1239
 msgid "The following translations were successfully updated:"
 msgstr "Наступні переклади успішно оновлені:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1234
+#: wp-admin/includes/class-wp-automatic-updater.php:1238
 msgid "The following themes were successfully updated:"
 msgstr "Наступні теми успішно оновлені:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1233
+#: wp-admin/includes/class-wp-automatic-updater.php:1237
 msgid "The following plugins were successfully updated:"
 msgstr "Наступні плагіни успішно оновлені:"
 
@@ -7658,7 +7672,7 @@ msgstr "<strong>Діяльність</strong> &mdash; Показує відкл�
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
 msgstr "<strong>Параметри екрану</strong> &mdash; Використовуйте вкладку \"Параметри екрану\", щоб обрати потрібні блоки Майстерні."
 
-#: wp-admin/includes/dashboard.php:1563 wp-admin/includes/dashboard.php:1578
+#: wp-admin/includes/dashboard.php:1565 wp-admin/includes/dashboard.php:1580
 msgid "Manage Uploads"
 msgstr "Керування файлами"
 
@@ -7700,27 +7714,27 @@ msgid "Activity"
 msgstr "Діяльність"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1256
+#: wp-admin/includes/class-wp-automatic-updater.php:1260
 msgid "FAILED: %s"
 msgstr "ПОМИЛКА: %s"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1241
+#: wp-admin/includes/class-wp-automatic-updater.php:1245
 msgid "SUCCESS: %s"
 msgstr "УСПІХ: %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1219
+#: wp-admin/includes/class-wp-automatic-updater.php:1223
 msgid "FAILED: WordPress failed to update to %s"
 msgstr "ПОМИЛКА: Неможливо оновити WordPress до версії %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1216
+#: wp-admin/includes/class-wp-automatic-updater.php:1220
 msgid "SUCCESS: WordPress was successfully updated to %s"
 msgstr "УСПІХ: WordPress успішно оновлено до версії %s"
 
 #. translators: %s: Network home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1209
+#: wp-admin/includes/class-wp-automatic-updater.php:1213
 msgid "WordPress site: %s"
 msgstr "WordPress сайт: %s"
 
@@ -7773,7 +7787,7 @@ msgid "We have some data that describes the error your site encountered."
 msgstr "У нас є дані з описом помилки, що сталася на вашому сайті."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:806
-#: wp-admin/includes/class-wp-automatic-updater.php:1158
+#: wp-admin/includes/class-wp-automatic-updater.php:1162
 msgid "The WordPress Team"
 msgstr "Команда WordPress"
 
@@ -7782,7 +7796,7 @@ msgid "You also have some plugins or themes with updates available. Update them 
 msgstr "Також доступні оновлення декількох плагінів або тем. Оновіть їх:"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:787
-#: wp-admin/includes/class-wp-automatic-updater.php:1156
+#: wp-admin/includes/class-wp-automatic-updater.php:1160
 msgid "If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help."
 msgstr "Якщо ви зіткнетеся з проблемами і вам знадобиться підтримка, вам допоможуть волонтери на форумах WordPress.org."
 
@@ -8601,15 +8615,15 @@ msgstr "Також можна вибрати колір фону, натисну
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
 msgstr "Ви можете вибрати, чи повинен ваш сайт індексуватися роботами, сервісами повідомлень і веб-павуками. Якщо ви хочете, щоб ці служби ігнорували ваш сайт, поставте галочку &laquo;Попросити пошукові системи не індексувати сайт&raquo; та натисніть кнопку &laquo;Зберегти зміни&raquo; в нижній частині екрана. Зверніть увагу, що для повної приватності цього недостатньо; ваш сайт все одно видно іншим відвідувачам."
 
-#: wp-admin/includes/dashboard.php:1930
+#: wp-admin/includes/dashboard.php:1932
 msgid "Learn more about getting started"
 msgstr "Дізнайтеся більше про початок роботи з WordPress"
 
-#: wp-admin/includes/dashboard.php:1928
+#: wp-admin/includes/dashboard.php:1930
 msgid "Turn comments on or off"
 msgstr "Увімкнути або вимкнути коментарі"
 
-#: wp-admin/includes/dashboard.php:1919
+#: wp-admin/includes/dashboard.php:1921
 msgid "More Actions"
 msgstr "Інші дії"
 
@@ -8693,49 +8707,49 @@ msgstr "Ваше ім'я користувача на WordPress.org:"
 msgid "If you have marked plugins as favorites on WordPress.org, you can browse them here."
 msgstr "Якщо ви додали плагіни на WordPress.org в список улюблених, ви можете їх переглянути тут."
 
-#: wp-admin/includes/dashboard.php:1915
+#: wp-admin/includes/dashboard.php:1917
 msgid "View your site"
 msgstr "Переглянути свій сайт"
 
-#: wp-admin/includes/dashboard.php:1912
+#: wp-admin/includes/dashboard.php:1914
 msgid "Add an About page"
 msgstr "Додайте сторінку \"Про мене\""
 
-#: wp-admin/includes/dashboard.php:1911
+#: wp-admin/includes/dashboard.php:1913
 msgid "Write your first blog post"
 msgstr "Напишіть свій перший запис"
 
-#: wp-admin/includes/dashboard.php:1909
+#: wp-admin/includes/dashboard.php:1911
 msgid "Add a blog post"
 msgstr "Додати запис"
 
-#: wp-admin/includes/dashboard.php:1905 wp-admin/includes/dashboard.php:1908
+#: wp-admin/includes/dashboard.php:1907 wp-admin/includes/dashboard.php:1910
 msgid "Add additional pages"
 msgstr "Додати інші сторінки"
 
-#: wp-admin/includes/dashboard.php:1904 wp-admin/includes/dashboard.php:1907
+#: wp-admin/includes/dashboard.php:1906 wp-admin/includes/dashboard.php:1909
 msgid "Edit your front page"
 msgstr "Редагувати головну сторінку"
 
 #: wp-admin/includes/class-wp-privacy-requests-table.php:46
-#: wp-admin/includes/dashboard.php:1901
+#: wp-admin/includes/dashboard.php:1903
 msgid "Next Steps"
 msgstr "Наступні кроки"
 
 #. translators: %s: URL to Themes panel in Customizer or Themes screen.
-#: wp-admin/includes/dashboard.php:1895
+#: wp-admin/includes/dashboard.php:1897
 msgid "or, <a href=\"%s\">change your theme completely</a>"
 msgstr "або, <a href=\"%s\">повністю змінити тему</a>"
 
-#: wp-admin/includes/dashboard.php:1886
+#: wp-admin/includes/dashboard.php:1888
 msgid "Get Started"
 msgstr "Початок роботи"
 
-#: wp-admin/includes/dashboard.php:1882
+#: wp-admin/includes/dashboard.php:1884
 msgid "We&#8217;ve assembled some links to get you started:"
 msgstr "Ми зібрали деякі посилання для легкого початку роботи з WordPress:"
 
-#: wp-admin/includes/dashboard.php:1881
+#: wp-admin/includes/dashboard.php:1883
 msgid "Welcome to WordPress!"
 msgstr "Ласкаво просимо до WordPress!"
 
@@ -9471,15 +9485,18 @@ msgstr "Введіть електронну адресу або ім&#8217;я в
 msgid "Show Toolbar when viewing site"
 msgstr "Показувати панель інструментів при перегляді сайту"
 
+#. translators: %s: HelpHub URL
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:83 wp-admin/about.php:352
+#: wp-admin/about.php:83 wp-admin/about.php:108 wp-admin/about.php:377
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Більше інформації можна отримати з <a href=\"%s\">деталей випуску</a>."
 
+#. translators: 1: WordPress version number, 2: plural number of bugs. More
+#. than one security issue.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:346
+#: wp-admin/about.php:71 wp-admin/about.php:371
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> вирішені кілька проблем з безпекою і виправлена %2$s помилка."
@@ -9488,7 +9505,7 @@ msgstr[2] "У <strong>версії %1$s</strong> вирішені кілька �
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:340
+#: wp-admin/about.php:365
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилку."
@@ -9496,7 +9513,7 @@ msgstr[1] "У <strong>версії %1$s</strong> виправлено пробл
 msgstr[2] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилок."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:71 wp-admin/about.php:334
+#: wp-admin/about.php:96 wp-admin/about.php:359
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено %2$s помилку."
@@ -9508,19 +9525,19 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Ласкаво просимо до вашої Майстерні WordPress! Це розділ, який ви будете бачити, коли увійдете на свій сайт. Звідси є доступ до всіх елементів керування сайтом. Ви можете отримати допомогу по будь-якому розділу, натиснувши вкладку \"Допомога\" над заголовком розділу."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:331
+#: wp-admin/about.php:356
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "У <strong>версії %s</strong> виправлено декілька проблем безпеки."
 
-#: wp-admin/about.php:325
+#: wp-admin/about.php:350
 msgid "Maintenance and Security Release"
 msgstr "Випуск обслуговування та безпеки"
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:347
 msgid "Security Release"
 msgstr "Випуск безпеки"
 
-#: wp-admin/about.php:319
+#: wp-admin/about.php:344
 msgid "Maintenance Release"
 msgstr "Випуск обслуговування"
 
@@ -9533,7 +9550,7 @@ msgstr "Що нового"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Цей розділ дозволяє вам обирати структуру постійних посилань. Ви можете обрати один із запропонованих варіантів, або створити користувацьку структуру URL."
 
-#: wp-admin/about.php:306
+#: wp-admin/about.php:331
 msgid "Return to Updates"
 msgstr "Повернутися до поновлень"
 
@@ -9814,11 +9831,11 @@ msgstr "Оскільки це мережа сайтів, можна додава
 msgid "Welcome to WordPress %s."
 msgstr "Ласкаво просимо до WordPress %s."
 
-#: wp-admin/about.php:309
+#: wp-admin/about.php:334
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Перейти до \"Майстерні\" &rarr; \"Домашня сторінка\""
 
-#: wp-admin/about.php:306
+#: wp-admin/about.php:331
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Повернутися до \"Майстерні\" &rarr; \"Оновлення\""
 
@@ -9826,11 +9843,11 @@ msgstr "Повернутися до \"Майстерні\" &rarr; \"Оновле
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress створено міжнародною командою пристрасних особистостей."
 
-#: wp-admin/about.php:195
+#: wp-admin/about.php:220
 msgid "For developers"
 msgstr "Для розробників"
 
-#: wp-admin/includes/dashboard.php:1887 wp-admin/includes/dashboard.php:1889
+#: wp-admin/includes/dashboard.php:1889 wp-admin/includes/dashboard.php:1891
 msgid "Customize Your Site"
 msgstr "Налаштувати свій сайт"
 
@@ -9927,7 +9944,7 @@ msgid "Tumblr"
 msgstr "Tumblr"
 
 #. translators: 1: Browser update URL, 2: Browser name, 3: Browse Happy URL.
-#: wp-admin/includes/dashboard.php:1628
+#: wp-admin/includes/dashboard.php:1630
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
 msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Оновити %2$s</a> або дізнатись більше про <a href=\"%3$s\" class=\"browse-happy-link\">сучасні браузери</a>"
 
@@ -9969,7 +9986,7 @@ msgstr "У меню навігації зліва розташовані пос�
 #: wp-admin/includes/class-custom-background.php:88
 #: wp-admin/includes/ms.php:1135 wp-admin/includes/class-wp-screen.php:853
 #: wp-admin/includes/class-custom-image-header.php:97 wp-admin/my-sites.php:43
-#: wp-admin/options-general.php:41 wp-admin/comment.php:57
+#: wp-admin/options-general.php:41 wp-admin/comment.php:61
 #: wp-admin/theme-editor.php:27 wp-admin/plugin-editor.php:124
 #: wp-admin/nav-menus.php:609 wp-admin/nav-menus.php:650
 #: wp-admin/update-core.php:806 wp-admin/options-permalink.php:22
@@ -10060,7 +10077,7 @@ msgstr "Ви не можете видаляти користувачів."
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Результати пошуку для &#8220;%s&#8221;"
 
-#: wp-admin/comment.php:162 wp-admin/theme-editor.php:305
+#: wp-admin/comment.php:166 wp-admin/theme-editor.php:305
 #: wp-admin/plugins.php:342 wp-admin/plugins.php:348
 #: wp-admin/includes/network.php:444 wp-admin/includes/network.php:452
 #: wp-admin/includes/network.php:460 wp-admin/network/themes.php:137
@@ -10107,8 +10124,8 @@ msgstr "Супер-адмін"
 #: wp-admin/includes/class-wp-debug-data.php:1275
 #: wp-admin/includes/class-wp-plugins-list-table.php:1018
 #: wp-admin/includes/update.php:231 wp-admin/includes/update.php:271
-#: wp-admin/includes/ajax-actions.php:4442
-#: wp-admin/includes/ajax-actions.php:4485
+#: wp-admin/includes/ajax-actions.php:4443
+#: wp-admin/includes/ajax-actions.php:4486
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:713
 msgid "Version %s"
 msgstr "Версія %s"
@@ -10175,7 +10192,7 @@ msgstr "Налаштування збережено."
 #: wp-admin/includes/class-custom-background.php:98
 #: wp-admin/includes/ms.php:1157
 #: wp-admin/includes/class-custom-image-header.php:133 wp-admin/my-sites.php:50
-#: wp-admin/options-general.php:47 wp-admin/comment.php:65
+#: wp-admin/options-general.php:47 wp-admin/comment.php:69
 #: wp-admin/theme-editor.php:50 wp-admin/plugin-editor.php:141
 #: wp-admin/nav-menus.php:657 wp-admin/update-core.php:844
 #: wp-admin/options-permalink.php:59 wp-admin/user-new.php:267
@@ -10280,12 +10297,12 @@ msgid "Featured Image Header"
 msgstr "Головне зображення в заголовку"
 
 #. translators: %s: Browser name and link.
-#: wp-admin/includes/dashboard.php:1606
+#: wp-admin/includes/dashboard.php:1608
 msgid "It looks like you're using an old version of %s. For the best WordPress experience, please update your browser."
 msgstr "Схоже ви використовуєте стару версію %s. Для використання всіх можливостей WordPress, будь ласка, оновіть свій браузер."
 
 #. translators: %s: Browser name and link.
-#: wp-admin/includes/dashboard.php:1600
+#: wp-admin/includes/dashboard.php:1602
 msgid "It looks like you're using an insecure version of %s. Using an outdated browser makes your computer unsafe. For the best WordPress experience, please update your browser."
 msgstr "Схоже ви використовуєте небезпечну версію %s. Використання застарілого браузера робить ваш комп'ютер небезпечним. Для використання всіх можливостей WordPress, будь ласка, оновіть свій браузер."
 
@@ -10470,7 +10487,7 @@ msgstr "%1$s з %2$s"
 msgid "%s Page Template"
 msgstr "Шаблон сторінки «%s»"
 
-#: wp-admin/includes/ajax-actions.php:4547 wp-admin/plugins.php:622
+#: wp-admin/includes/ajax-actions.php:4548 wp-admin/plugins.php:622
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "Ви не можете видалити плагін, поки він діє на основному сайті."
 
@@ -10618,7 +10635,7 @@ msgstr "Тема оновлена успішно."
 
 #: wp-admin/includes/class-theme-upgrader.php:63
 #: wp-admin/includes/class-theme-upgrader.php:100
-#: wp-admin/includes/ajax-actions.php:4213
+#: wp-admin/includes/ajax-actions.php:4214
 msgid "Theme update failed."
 msgstr "Оновлення теми не вдалося."
 
@@ -10629,7 +10646,7 @@ msgstr "Плагін успішно оновлений."
 
 #: wp-admin/includes/class-plugin-upgrader.php:64
 #: wp-admin/includes/class-plugin-upgrader.php:91
-#: wp-admin/includes/ajax-actions.php:4504
+#: wp-admin/includes/ajax-actions.php:4505
 msgid "Plugin update failed."
 msgstr "Оновлення плагіну не вдалося."
 
@@ -10790,11 +10807,11 @@ msgstr[0] "%s користувач"
 msgstr[1] "%s користувачі"
 msgstr[2] "%s користувачів"
 
-#: wp-admin/includes/dashboard.php:1443
+#: wp-admin/includes/dashboard.php:1445
 msgid "https://wordpress.org/news/feed/"
 msgstr "https://wordpress.org/news/feed/"
 
-#: wp-admin/includes/dashboard.php:1434
+#: wp-admin/includes/dashboard.php:1436
 msgid "https://wordpress.org/news/"
 msgstr "https://wordpress.org/news/"
 
@@ -10817,7 +10834,7 @@ msgstr "Доступна нова версія %1$s. <a href=\"%2$s\" %3$s>Пе�
 msgid "Click Save Menu to make pending menu items public."
 msgstr "Збережіть меню, щоб оновити чернетки елементів."
 
-#: wp-admin/includes/dashboard.php:1549
+#: wp-admin/includes/dashboard.php:1551
 msgid "Storage Space"
 msgstr "Дисковий простір"
 
@@ -10976,11 +10993,11 @@ msgstr "Обов'язкові поля вказані; інші необов'я�
 msgid "Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts."
 msgstr "Ім'я користувача змінити не можна, однак можна використовувати інші поля, щоб ввести ваше справжнє ім'я або нік, а також вибрати ім'я, що відображається поряд з вашими записами."
 
-#: wp-admin/comment.php:60
+#: wp-admin/comment.php:64
 msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
 msgstr "Ви також можете узгодити чи відхилити коментар на цьому екрані з допомогою блоку «Статус», де можна змінити і час додавання коментаря."
 
-#: wp-admin/comment.php:59
+#: wp-admin/comment.php:63
 msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
 msgstr "Ви можете редагувати інформацію, залишену у коментарі, якщо треба. Це корисно, наприклад, коли коментатор припустився орфографічної помилки."
 
@@ -11270,7 +11287,7 @@ msgid "Clear"
 msgstr "Очистити"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:362
-#: wp-admin/comment.php:128
+#: wp-admin/comment.php:132
 msgctxt "comment"
 msgid "Mark as spam"
 msgstr "Позначити як спам"
@@ -11319,7 +11336,7 @@ msgstr "Не спам"
 msgid "This will restore the original background image. You will not be able to restore any customizations."
 msgstr "Це відновить стандартні зображення і колір заголовку. Ви будете не в змозі повернути будь-яке з Ваших особистих змін."
 
-#: wp-admin/includes/dashboard.php:1452
+#: wp-admin/includes/dashboard.php:1454
 msgid "WordPress Blog"
 msgstr "WordPress блог"
 
@@ -11667,7 +11684,7 @@ msgstr "Оновлення WordPress"
 msgid "Edit menu item"
 msgstr "Редагувати пункт меню"
 
-#: wp-admin/about.php:309
+#: wp-admin/about.php:334
 msgid "Go to Dashboard"
 msgstr "Перейти до майстерні"
 
@@ -11778,19 +11795,19 @@ msgstr "Цей коментар вже в кошику."
 msgid "This comment is already approved."
 msgstr "Цей коментар вже схвалено."
 
-#: wp-admin/comment.php:154
+#: wp-admin/comment.php:158
 msgid "This comment is currently in the Trash."
 msgstr "Цей коментар наразі в кошику."
 
-#: wp-admin/comment.php:151
+#: wp-admin/comment.php:155
 msgid "This comment is currently marked as spam."
 msgstr "Цей коментар вже позначено як спам."
 
-#: wp-admin/comment.php:148
+#: wp-admin/comment.php:152
 msgid "This comment is currently approved."
 msgstr "Цей коментар наразі схвалено."
 
-#: wp-admin/comment.php:95
+#: wp-admin/comment.php:99
 msgid "Moderate Comment"
 msgstr "Модерувати коментар"
 
@@ -12253,7 +12270,7 @@ msgstr "Файли плагінів"
 msgid "Select plugin to edit:"
 msgstr "Оберіть плагін для редагування:"
 
-#: wp-admin/includes/ajax-actions.php:4715 wp-admin/theme-editor.php:189
+#: wp-admin/includes/ajax-actions.php:4716 wp-admin/theme-editor.php:189
 #: wp-admin/plugin-editor.php:184
 msgid "File edited successfully."
 msgstr "Файл успішно відредаговано."
@@ -14096,7 +14113,7 @@ msgstr "Налаштувати"
 msgid "View all"
 msgstr "Переглянути все"
 
-#: wp-admin/includes/dashboard.php:1485
+#: wp-admin/includes/dashboard.php:1487
 msgid "Other WordPress News"
 msgstr "Інші новини WordPress"
 
@@ -14526,7 +14543,7 @@ msgstr "Оновити коментар"
 
 #. translators: 1: Date of last edit, 2: Time of last edit.
 #. translators: 1: Post edited date, 2: Post edited time.
-#: wp-admin/includes/ajax-actions.php:2815 wp-admin/edit-form-advanced.php:628
+#: wp-admin/includes/ajax-actions.php:2816 wp-admin/edit-form-advanced.php:628
 msgid "Last edited on %1$s at %2$s"
 msgstr "Востаннє редаговано %1$s о %2$s"
 
@@ -14534,7 +14551,7 @@ msgstr "Востаннє редаговано %1$s о %2$s"
 #. edit.
 #. translators: 1: Name of most recent post author, 2: Post edited date, 3:
 #. Post edited time.
-#: wp-admin/includes/ajax-actions.php:2812 wp-admin/edit-form-advanced.php:625
+#: wp-admin/includes/ajax-actions.php:2813 wp-admin/edit-form-advanced.php:625
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Востаннє редаговано: %1$s, %2$s о %3$s"
 
@@ -14625,7 +14642,7 @@ msgstr "Пошук коментарів"
 
 #: wp-admin/edit-form-comment.php:102
 msgid "Approved"
-msgstr "Схвалено"
+msgstr "Схвалені"
 
 #. translators: %s: Number of comments.
 #: wp-admin/edit-comments.php:300
@@ -14743,44 +14760,44 @@ msgstr "Фон оновлено. <a href=\"%s\">Переглянути сайт<
 msgid "Custom Background"
 msgstr "Довільний фон"
 
-#: wp-admin/comment.php:363
+#: wp-admin/comment.php:367
 msgid "Unknown action."
 msgstr "Невідома дія."
 
-#: wp-admin/comment.php:140
+#: wp-admin/comment.php:144
 msgid "Approve comment"
 msgstr "Схвалити коментар"
 
-#: wp-admin/comment.php:139
+#: wp-admin/comment.php:143
 msgid "You are about to approve the following comment:"
 msgstr "Ви збираєтеся схвалити наступний коментар:"
 
-#: wp-admin/comment.php:136
+#: wp-admin/comment.php:140
 msgid "Permanently delete comment"
 msgstr "Остаточно видалити коментар"
 
-#: wp-admin/comment.php:135
+#: wp-admin/comment.php:139
 msgid "You are about to delete the following comment:"
 msgstr "Ви збираєтесь видалити наступний коментар:"
 
-#: wp-admin/comment.php:131
+#: wp-admin/comment.php:135
 msgid "You are about to move the following comment to the Trash:"
 msgstr "Ви збираєтесь перемістити наступний коментар до кошика:"
 
-#: wp-admin/comment.php:127
+#: wp-admin/comment.php:131
 msgid "You are about to mark the following comment as spam:"
 msgstr "Ви збираєтесь позначити наступний коментар як спам:"
 
-#: wp-admin/comment.php:82
+#: wp-admin/comment.php:86
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
 msgstr "Цей коментар знаходиться в кошику. Будь ласка, відновіть його, якщо хочете редагувати."
 
-#: wp-admin/includes/comment.php:55 wp-admin/comment.php:275
+#: wp-admin/includes/comment.php:55 wp-admin/comment.php:279
 #: wp-admin/edit-comments.php:253
 msgid "Sorry, you are not allowed to edit comments on this post."
 msgstr "На жаль, вам не дозволено редагувати коментарі до цього запису."
 
-#: wp-admin/includes/template.php:453 wp-admin/comment.php:52
+#: wp-admin/includes/template.php:453 wp-admin/comment.php:56
 #: wp-admin/edit-form-comment.php:17
 msgid "Edit Comment"
 msgstr "Редагувати коментар"
